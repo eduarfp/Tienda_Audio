@@ -1,3 +1,5 @@
+/*Menu*/
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -23,11 +25,34 @@ ul{
     float: left;
     padding: 20px;
     background-color: #515050;
-    width: 182px;
+    width: 180px;
 }
 
 .nav-menu-link{
     text-decoration: none;
     display: block;
     color: white;
+}
+
+/*Contenido*/
+
+.quienessomos{
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.article{
+    margin: 40px 40px 40px 40px;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 }
